@@ -84,10 +84,10 @@
   image-rendering: crisp-edges; /* O prueba con pixelated */
 }
 
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .inicio .fondo-img {
-    background-image: url(/img/fondoblog1@2x.webp);
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
+  .inicio {
+    height: 60vh; /* Ajusta la altura para móviles si es necesario */
   }
 }
 /* Estilo para las imágenes tipo banner en la sección topic-discussion */
