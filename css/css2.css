@@ -73,7 +73,7 @@
 }
 
 .inicio .fondo-img {
-  background: url(../img/1.png) no-repeat center center;
+  background: url(/img/1.png) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -83,13 +83,21 @@
   z-index: 1;
   image-rendering: crisp-edges; /* O prueba con pixelated */
 }
-
 /* Ajuste para dispositivos móviles */
 @media (max-width: 768px) {
   .inicio {
     height: 60vh; /* Ajusta la altura para móviles si es necesario */
   }
 }
+
+p {
+  text-align: justify; /* Justifica el texto para que quede alineado en ambos lados */
+  line-height: 1.6; /* Mejora la legibilidad aumentando el espacio entre líneas */
+  margin: 0 0 15px; /* Agrega un espacio entre párrafos */
+  padding: 0; /* Elimina cualquier relleno adicional */
+}
+
+
 /* Estilo para las imágenes tipo banner en la sección topic-discussion */
 .topic-discussion .banner-img {
   width: 100%;           /* Ocupa todo el ancho del contenedor */
