@@ -73,7 +73,7 @@
 }
 
 .inicio .fondo-img {
-  background: url(./img/1.png) no-repeat center center;
+  background: url(../img/1.png) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 0;
